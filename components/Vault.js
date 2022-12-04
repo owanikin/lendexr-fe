@@ -36,7 +36,7 @@ export default function Vault() {
   }, [isWeb3Enabled])
 
   return (<div>
-    { vaultaddress ? (<div>We're so sorry, the frontend is not yet ready. Kindly check back soon!</div> ) : ( <div>Connect your Wallet to Take Loans</div> )}
+    { vaultaddress ? (<div>We are so sorry, the frontend is not yet ready. Kindly check back soon!</div> ) : ( <div>Connect your Wallet to Take Loans</div> )}
       
     </div>
   )
